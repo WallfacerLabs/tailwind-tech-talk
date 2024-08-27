@@ -1,0 +1,16 @@
+{
+  "name": "tailwind-tech-talk",
+  "type": "module",
+  "private": true,
+  "packageManager": "pnpm@9.5.0",
+  "scripts": {
+    "build": "slidev build",
+    "dev": "slidev --open",
+    "export": "slidev export"
+  },
+  "dependencies": {
+    "@slidev/cli": "^0.49.16",
+    "@slidev/theme-default": "latest",
+    "vue": "^3.4.32"
+  }
+}
